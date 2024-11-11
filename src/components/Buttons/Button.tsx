@@ -1,6 +1,6 @@
 import './button.css'
-export default function Button(Props: {buttonName: string}) {
+export default function Button(Props: { buttonName: string, buttonNewStyle?: string }) {
     return (
-        <a className="button" href="" >{Props.buttonName}</a>
+        <a className={`button ${Props.buttonNewStyle}`} href="">{Props.buttonName}</a>
     )
 }

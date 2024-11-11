@@ -1,9 +1,10 @@
 .button {
-color: white;
-background-color: rgb(238, 98, 107);
-border: 0px;
-border-radius: 50px;
-text-decoration: none;
-padding: 8px 25px 10px 25px;
-text-align: center;
+    position: relative;
+    color: white;
+    background-color: rgb(238, 98, 107);
+    border: 0px;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 8px 25px 10px 25px;
+    text-align: center;
 }
