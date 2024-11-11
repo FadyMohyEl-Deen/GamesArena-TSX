@@ -1,3 +1,4 @@
+import "./App.css"
 import NavBar from "./components/Navbar/NavBar";
 import HeadSection from "./components/HeadSection/HeadSection";
 import Footer from "./components/Footer/Footer";
@@ -16,10 +17,19 @@ function App() {
           ]} />
       </nav>
       <section className="headSection">
-        <HeadSection/>
+        <HeadSection
+          content={{
+            heroText1: "WELCOME TO GAMESARENA",
+            heroText2: "BEST GAMING SITE EVER!",
+            heroText3: "Welcome to GamesArena, your ultimate destination for all things gaming! Explore a vast collection of the latest games, and reviews across multiple genres. Whether you're a casual gamer or a competitive pro, GamesArena is where the gaming community comes together to level up!",
+            heroImage: "../images/banner-bg.jpg",
+            priceTag: "$22",
+            offer: "-40%",
+          }}
+        />
       </section>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );
