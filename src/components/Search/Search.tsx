@@ -1,11 +1,16 @@
 import "./Search.css"
 import Button from "../Buttons/Button"
-export default function Search() {
+
+interface Placeholer {
+    Text: string;
+}
+
+export default function Search({ Text }: Placeholer) {
     return (
         <>
             <div className="searchBar">
-                <input className="searchArea" type="text" placeholder="Search Games..." />
-                <Button buttonName="Search Now" buttonNewStyle="button" />
+                <input className="searchArea" type="text" placeholder={Text} />
+                <Button buttonName="Search Now" buttonNewStyle="buttonSearch" />
             </div>
         </>
     )

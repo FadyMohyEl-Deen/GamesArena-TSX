@@ -1,6 +1,7 @@
 import "./App.css"
 import NavBar from "./components/Navbar/NavBar";
 import HeadSection from "./components/HeadSection/HeadSection";
+import GameCard from "./components/GameCard/GameCard";
 import Footer from "./components/Footer/Footer";
 export default App;
 function App() {
@@ -25,6 +26,20 @@ function App() {
             heroImage: "../images/banner-bg.jpg",
             priceTag: "$22",
             offer: "-40%",
+            ImgSrc: "../images/banner-image.jpg",
+            Alt: "an image of a video game"
+          }}
+        />
+      </section>
+      <section className="trendingSection">
+        <GameCard
+          cardContent={{
+            ImgSrc: "../images/top-game-01.jpg",
+            Price: "$Price",
+            Genre: "Genre",
+            GameName: "Game Name",
+            cartImg:"../images/cart.png",
+            Alt: "Add To Cart"
           }}
         />
       </section>
