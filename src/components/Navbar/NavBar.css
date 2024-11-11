@@ -1,0 +1,46 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/banner-bg.jpg);     
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;     
+    padding: 40px 100px 40px 100px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.logoImage {
+    width: 70px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.navTabs {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.navList {
+    list-style: none;
+}
+    
+.navTab {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.footer {
+    position: relative;
+    background-image: url(../images/footer-bg.jpg);
+    padding: 35px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    bottom: 0px;
+}
