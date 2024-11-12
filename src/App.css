@@ -4,7 +4,13 @@
     padding: 0px;
 }
 
-.trendingSection {
+.gamesSection {
     padding: 50px 100px 100px 100px;
     gap: 30px;
+}
+
+.cardsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
 }

@@ -1,0 +1,34 @@
+.upperText {
+    margin-bottom: 40px;
+}
+
+.upperText p {
+    color: rgb(238, 98, 107);
+    font-weight: 700;
+    margin: 0px;
+}
+
+.upperText h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.titleAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.titleAndButton h2 {
+    margin: 0px;
+}
+
+.line {
+color: black;
+}
+
+.newUpperText {
+    text-align: center;
+}

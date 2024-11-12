@@ -1,7 +1,7 @@
 .footer {
     position: relative;
     background-image: url(../images/footer-bg.jpg);
-    padding: 35px;
+    padding: 60px 0px 40px 0px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     text-align: center;

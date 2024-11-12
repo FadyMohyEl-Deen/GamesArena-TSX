@@ -1,6 +1,7 @@
 import "./App.css"
 import NavBar from "./components/Navbar/NavBar";
 import HeadSection from "./components/HeadSection/HeadSection";
+import SectionHeader from "./components/SectionHeader/SectionHeader";
 import GameCard from "./components/GameCard/GameCard";
 import Footer from "./components/Footer/Footer";
 export default App;
@@ -17,6 +18,7 @@ function App() {
             { name: "Contact Us", ref: "/" },
           ]} />
       </nav>
+
       <section className="headSection">
         <HeadSection
           content={{
@@ -31,17 +33,150 @@ function App() {
           }}
         />
       </section>
-      <section className="trendingSection">
+
+      <section className="gamesSection">
+        <SectionHeader
+          sectionContent={{
+            SectionFirstTitle: "TRENDING",
+            SectionSecondTitle: "Trending Games"
+          }
+          }
+        />
+        <div className="cardsList">
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-01.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }}
+          />
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-02.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }} />
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-03.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }} />
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-04.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }} />
+        </div>
+      </section>
+
+      <section className="gamesSection">
+        <SectionHeader
+          sectionContent={{
+            SectionFirstTitle: "TOP GAMES",
+            SectionSecondTitle: "Most Played"
+          }}
+        />
+        <div className="cardsList">
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-01.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }}
+          />
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-02.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }} />
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-03.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }} />
+          <GameCard
+            cardContent={{
+              ImgSrc: "../images/top-game-04.jpg",
+              Price: "$Price",
+              Genre: "Genre",
+              GameName: "Game Name",
+              cartImg: "../images/cart.png",
+              Alt: "Add To Cart"
+            }} />
+        </div>
+      </section>
+
+      <section className="gamesSection">
+      <SectionHeader
+          sectionContent={{
+            SectionFirstTitle: "CATEGORIES",
+            SectionSecondTitle: "Top Categories"
+          }}
+        />
+      <div className="cardsList">
         <GameCard
           cardContent={{
             ImgSrc: "../images/top-game-01.jpg",
             Price: "$Price",
             Genre: "Genre",
             GameName: "Game Name",
-            cartImg:"../images/cart.png",
+            cartImg: "../images/cart.png",
             Alt: "Add To Cart"
           }}
         />
+        <GameCard
+          cardContent={{
+            ImgSrc: "../images/top-game-02.jpg",
+            Price: "$Price",
+            Genre: "Genre",
+            GameName: "Game Name",
+            cartImg: "../images/cart.png",
+            Alt: "Add To Cart"
+          }}/>
+          <GameCard
+          cardContent={{
+            ImgSrc: "../images/top-game-03.jpg",
+            Price: "$Price",
+            Genre: "Genre",
+            GameName: "Game Name",
+            cartImg: "../images/cart.png",
+            Alt: "Add To Cart"
+          }}/>
+          <GameCard
+          cardContent={{
+            ImgSrc: "../images/top-game-04.jpg",
+            Price: "$Price",
+            Genre: "Genre",
+            GameName: "Game Name",
+            cartImg: "../images/cart.png",
+            Alt: "Add To Cart"
+          }}/>
+          </div>
       </section>
       <footer>
         <Footer />
