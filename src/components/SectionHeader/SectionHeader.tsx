@@ -1,12 +1,12 @@
 import "./SectionHeader.css"
-interface Content {
+interface Props {
     sectionContent: {
         SectionFirstTitle: string;
         SectionSecondTitle: string;
     }
 }
 
-export default function SectionHeader({ sectionContent }: Content) {
+export default function SectionHeader({ sectionContent }: Props) {
     return (
         <>
             <div className="upperText" >

@@ -1,11 +1,11 @@
 import "./Search.css"
 import Button from "../Buttons/Button"
 
-interface Placeholer {
+interface Props {
     Text: string;
 }
 
-export default function Search({ Text }: Placeholer) {
+export default function Search({ Text }: Props) {
     return (
         <>
             <div className="searchBar">

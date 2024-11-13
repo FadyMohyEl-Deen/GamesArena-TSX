@@ -1,6 +1,6 @@
 import "./HeadSection.css"
 import Search from "../Search/Search";
-interface sectionContent {
+interface Props {
     content: {
         heroText1: string;
         heroText2: string;
@@ -12,7 +12,7 @@ interface sectionContent {
         Alt: string;
     };
 }
-export default function HeadSection({ content }: sectionContent) {
+export default function HeadSection({ content }: Props) {
     return (
         <>
             <div className="heroArea">

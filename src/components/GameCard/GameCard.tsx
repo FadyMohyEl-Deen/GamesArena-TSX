@@ -1,6 +1,6 @@
 import "./GameCard.css"
 
-interface Content {
+interface Props {
     cardContent: {
         ImgSrc: string;
         Price: string;
@@ -11,7 +11,7 @@ interface Content {
     };
 }
 
-export default function GameCard({ cardContent }: Content) {
+export default function GameCard({ cardContent }: Props) {
     return (
         <>
             <div className="gameCard">

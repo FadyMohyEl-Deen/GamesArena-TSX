@@ -1,28 +1,29 @@
+import { Link } from "react-router-dom";
 import Button from "../Buttons/Button";
 import "./NavBar.css"
 
-interface NavBarProps {
+interface Props {
+    LogoRef: string;
     websiteName: string;
-    tabs: {name: string; ref: string}[];
+    tabs: { name: string; ref: string }[];
 }
-export default function NavBar({websiteName, tabs}: NavBarProps) {
+export default function NavBar({ LogoRef, websiteName, tabs }: Props) {
     return (
         <>
             <nav className="navBar">
                 <div className="logo">
-                    <a href="" className="logoText">
-                        <img src="/images/Logo.png" alt="website's logo" className="logoImage" />{websiteName}
-                    </a>
+                    <Link to={LogoRef} className="logoText">
+                        <img src={LogoRef} alt="Website's logo" className="logoImage" />{websiteName}
+                    </Link>
                 </div>
                 <ol className="navTabs">
-                    {tabs.map((tab, index) =>(
-                        <a key={index} className="navTab" href={tab.ref}>{tab.name}
-                        </a>
+                    {tabs.map((tab, index) => (
+                        <Link key={index} className="navTab" to={tab.ref}>{tab.name}
+                        </Link>
                     ))}
                     <li className="navList"><Button buttonName="Sign In" /></li>
                 </ol>
             </nav>
-
         </>
     );
 }
