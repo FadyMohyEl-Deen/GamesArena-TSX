@@ -1,6 +1,12 @@
 import './button.css'
-export default function Button(Props: { buttonName: string, buttonNewStyle?: string }) {
+
+interface Props {
+    buttonName: string;
+    buttonNewStyle?: string;
+}
+
+export default function Button({ buttonName, buttonNewStyle }: Props) {
     return (
-        <a className={`button ${Props.buttonNewStyle}`} href="">{Props.buttonName}</a>
+        <a className={`button ${buttonNewStyle}`} href="">{buttonName}</a>
     )
 }

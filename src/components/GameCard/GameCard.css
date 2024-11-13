@@ -1,5 +1,6 @@
 .gameCard {
     display: flex;
+    cursor: pointer;
 }
 
 .imgCard {

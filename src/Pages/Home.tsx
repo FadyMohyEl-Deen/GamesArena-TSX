@@ -1,6 +1,7 @@
 import HeadSection from "../components/HeadSection/HeadSection";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import GameCard from "../components/GameCard/GameCard";
+import ThreeImagesCards from "../components/ThreeImagesCards/ThreeImagesCards";
 
 export default function Home() {
     return (
@@ -163,6 +164,30 @@ export default function Home() {
                             Alt: "Add To Cart"
                         }} />
                 </div>
+            </section>
+            <section>
+                <ThreeImagesCards
+                    LeftSection={{
+                        P1: "OUR SHOP",
+                        P2_1: "Go Pre-Order Buy & Get Best",
+                        P2_2: "For You!",
+                        P3: "Secure your game at the best price before it's released! Don't miss out on exclusive pre-order bonuses and discounts!",
+                        Span: "Prices",
+                        ButtonName: "SHOP NOW"
+                    }}
+                    MidImage={{
+                        ImgSrc: "/images/cta-bg.jpg",
+                        ImgAlt: "An image of a video game."
+                    }}
+                    RightSection={{
+                        P1: "NEWSLETTER",
+                        P2_1: "Get Up To $100 Off Just Buy",
+                        P2_2: "Newsletter!",
+                        P3: "Unlock up to $100 in savings - just subscribe to our newsletter! Stay updated with the latest deals, news, and exclusive gaming offers.",
+                        Span: "Subscribe",
+                        PlaceHolder: "Your Email...",
+                        ButtonName: "SUBSCRIBE NOW"
+                    }} />
             </section>
         </>
     )

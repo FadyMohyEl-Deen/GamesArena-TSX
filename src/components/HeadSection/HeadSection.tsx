@@ -20,7 +20,7 @@ export default function HeadSection({ content }: Props) {
                     <p className="heroText1">{content.heroText1}</p>
                     <h1 className="heroText2">{content.heroText2}</h1>
                     <p className="heroText3">{content.heroText3}</p>
-                    <Search Text="Search Games..." />
+                    <Search Placeholder="Search Games..." ButtonName="Search Now" />
                 </div>
                 <div className="rightImage">
                     <img className="heroImage" src={content.ImgSrc} alt={content.Alt} />
