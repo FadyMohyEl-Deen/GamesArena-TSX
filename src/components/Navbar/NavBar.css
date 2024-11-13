@@ -31,8 +31,9 @@
 
 .navTabs {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
+    align-items: center;
     margin: 0px;
 }
 
@@ -41,7 +42,7 @@
 }
     
 .navTab {
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 7px 15px;
     text-decoration: none;
     color: white;
 }
