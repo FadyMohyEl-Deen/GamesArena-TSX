@@ -9,9 +9,10 @@
 }
 
 .button:hover {
-    background-color:rgba(191, 71, 79, 0.9);;
+    background-color:rgba(191, 71, 79, 0.9);
 }
 .buttonSearch {
     right: 140px;
     bottom: 1px;
 }
+

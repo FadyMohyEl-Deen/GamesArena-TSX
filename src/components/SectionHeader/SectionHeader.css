@@ -29,6 +29,28 @@
 color: black;
 }
 
-.newUpperText {
+
+.upperText2 {
+    margin-bottom: 40px;
+    justify-content: center;
     text-align: center;
+
+}
+
+.upperText2 p {
+    color: rgb(238, 98, 107);
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.upperText2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line2 {
+    color: black;
+    margin-bottom: 50px;
+
 }

@@ -5,14 +5,15 @@ interface Props {
     Placeholder: string;
     ButtonName: string;
     searchNewStyle?: string;
+    buttonNewStyle?: string;
 }
 
-export default function Search({ Placeholder, ButtonName, searchNewStyle }: Props) {
+export default function Search({ Placeholder, ButtonName, buttonNewStyle, searchNewStyle }: Props) {
     return (
         <>
             <div className={`searchBar ${searchNewStyle}`}>
                 <input className="searchArea" type="text" placeholder={Placeholder} />
-                <Button buttonName={ButtonName} buttonNewStyle="buttonSearch" />
+                <Button buttonName={ButtonName} buttonNewStyle={buttonNewStyle} />
             </div>
         </>
     )

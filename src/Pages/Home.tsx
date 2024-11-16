@@ -1,7 +1,8 @@
 import HeadSection from "../components/HeadSection/HeadSection";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
-import GameCard from "../components/GameCard/GameCard";
+import GameCard, { GameCard2, GameCard3 } from "../components/GameCard/GameCard";
 import ThreeImagesCards from "../components/ThreeImagesCards/ThreeImagesCards";
+import { CategoriesSectionHeader } from "../components/SectionHeader/SectionHeader";
 
 export default function Home() {
     return (
@@ -32,7 +33,7 @@ export default function Home() {
                 <div className="cardsList">
                     <GameCard
                         cardContent={{
-                            ImgSrc: "../images/top-game-01.jpg",
+                            ImgSrc: "/",
                             Price: "$Price",
                             Genre: "Genre",
                             GameName: "Game Name",
@@ -40,33 +41,6 @@ export default function Home() {
                             Alt: "Add To Cart"
                         }}
                     />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-02.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-03.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-04.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
                 </div>
             </section>
 
@@ -78,7 +52,7 @@ export default function Home() {
                     }}
                 />
                 <div className="cardsList">
-                    <GameCard
+                    <GameCard2
                         cardContent={{
                             ImgSrc: "../images/top-game-01.jpg",
                             Price: "$Price",
@@ -88,81 +62,28 @@ export default function Home() {
                             Alt: "Add To Cart"
                         }}
                     />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-02.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-03.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-04.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
                 </div>
             </section>
 
             <section className="gamesSection">
-                <SectionHeader
+                <CategoriesSectionHeader
                     sectionContent={{
                         SectionFirstTitle: "CATEGORIES",
                         SectionSecondTitle: "Top Categories"
                     }}
                 />
                 <div className="cardsList">
-                    <GameCard
+                    <GameCard3
                         cardContent={{
                             ImgSrc: "../images/top-game-01.jpg",
                             Price: "$Price",
                             Genre: "Genre",
                             GameName: "Game Name",
                             cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
+                            Alt: "Add To Cart",
+                            newGameCard: "newGameCard"
                         }}
                     />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-02.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-03.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
-                    <GameCard
-                        cardContent={{
-                            ImgSrc: "../images/top-game-04.jpg",
-                            Price: "$Price",
-                            Genre: "Genre",
-                            GameName: "Game Name",
-                            cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
-                        }} />
                 </div>
             </section>
             <section>

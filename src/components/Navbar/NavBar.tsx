@@ -18,7 +18,7 @@ export default function NavBar({ LogoRef, websiteName, tabs }: Props) {
                 </div>
                 <ol className="navTabs">
                     {tabs.map((tab, index) => (
-                        <Link key={index} className="navTab" to={tab.ref}>{tab.name}
+                        <Link key={index} className="navTab active?" to={tab.ref}>{tab.name}
                         </Link>
                     ))}
                     <li className="navList"><Button buttonName="Sign In" /></li>

@@ -5,6 +5,16 @@
     border-radius: 0px 0px 150px 150px;
     padding: 50px 100px 100px 100px;
 }
+
+.headSection2 {
+    text-align: center;
+    color: white;
+    padding: 120px 0px 120px 0px;
+}
+.headSection2 h1 {
+    font-size: 50px;
+    font-weight: 700;   
+}
 .heroArea {
     display: flex;
     padding-top: 20px;

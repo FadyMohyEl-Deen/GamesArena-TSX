@@ -34,7 +34,7 @@ const ThreeImagesCards = ({ LeftSection, MidImage, RightSection }: Props) => {
                     <p className="p1">{LeftSection.P1}</p>
                     <p className="p2">{LeftSection.P2_1}<span className="span">{LeftSection.Span}</span>{LeftSection.P2_2}</p>
                     <p className="p3">{LeftSection.P3}</p>
-                    <Button buttonName={LeftSection.ButtonName} buttonNewStyle="subscribeButton" />
+                    <Button buttonName={LeftSection.ButtonName} buttonNewStyle="shopNowButton" />
                 </div>
 
                 <img className="midImage" src={MidImage.ImgSrc} alt={MidImage.ImgAlt} />
@@ -44,7 +44,7 @@ const ThreeImagesCards = ({ LeftSection, MidImage, RightSection }: Props) => {
                     <p className="p2">{RightSection.P2_1}<span className="span">{RightSection.Span}</span> {RightSection.P2_2}</p>
                     <p className="p3">{RightSection.P3}</p>
                     <div className="emailSection">
-                        <Search Placeholder={RightSection.PlaceHolder} ButtonName={RightSection.ButtonName} />
+                        <Search Placeholder={RightSection.PlaceHolder} ButtonName={RightSection.ButtonName} buttonNewStyle="subscribeButton" searchNewStyle="emailSearch" />
                     </div>
                 </div>
             </div>
