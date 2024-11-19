@@ -1,4 +1,4 @@
-import HeadSection from "../components/HeadSection/HeadSection";
+    import HeadSection from "../components/HeadSection/HeadSection";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import GameCard, { GameCard2, GameCard3 } from "../components/GameCard/GameCard";
 import ThreeImagesCards from "../components/ThreeImagesCards/ThreeImagesCards";
