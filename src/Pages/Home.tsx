@@ -38,7 +38,8 @@ export default function Home() {
                             Genre: "Genre",
                             GameName: "Game Name",
                             cartImg: "../images/cart.png",
-                            Alt: "Add To Cart"
+                            Alt: "Add To Cart",
+                            enableCart: false
                         }}
                     />
                 </div>

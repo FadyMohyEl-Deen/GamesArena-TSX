@@ -29,7 +29,6 @@ const ThreeImagesCards = ({ LeftSection, MidImage, RightSection }: Props) => {
     return (
         <>
             <div className="bottomArea">
-
                 <div className="leftSection">
                     <p className="p1">{LeftSection.P1}</p>
                     <p className="p2">{LeftSection.P2_1}<span className="span">{LeftSection.Span}</span>{LeftSection.P2_2}</p>
